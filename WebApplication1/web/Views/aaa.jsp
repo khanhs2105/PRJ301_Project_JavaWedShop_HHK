@@ -1,7 +1,7 @@
 <%-- 
-    Document   : helloo1
-    Created on : Jul 1, 2025, 9:07:05 PM
-    Author     : nguye
+    Document   : aaa
+    Created on : 1 thg 7, 2025, 21:25:08
+    Author     : Admin
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -12,7 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World! sdsa</h1>
-        <h2>JSP</h2>
+        <h1>Hello Worlfsafassad!</h1>
     </body>
 </html>
