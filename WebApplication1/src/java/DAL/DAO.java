@@ -5,7 +5,12 @@
 
 package DAL;
 
+import Models.User;
+
 
 public class DAO {
-
+        User alo = new User();
+        String returnName(){
+            return alo.getName();
+        }
 }
