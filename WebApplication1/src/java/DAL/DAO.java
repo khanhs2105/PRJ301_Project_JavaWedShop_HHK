@@ -31,4 +31,5 @@ public class DAO {
         String returnName(){
             return alo.getName();
         }
+        private String PASSSWORD;
 }
