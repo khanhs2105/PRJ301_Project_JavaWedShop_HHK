@@ -25,4 +25,10 @@ public class DAO {
             status = "Error at connecttion" + e.getMessage();
         }
     }
+        
+        
+        User alo = new User();
+        String returnName(){
+            return alo.getName();
+        }
 }
