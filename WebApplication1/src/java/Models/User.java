@@ -11,6 +11,9 @@ private int Id;
 private String Name;
 private int Age;
 private boolean Gender;
+private String Password;
+private String role;
+private boolean locked;
 
     public User() {
     }
@@ -52,6 +55,30 @@ private boolean Gender;
 
     public void setGender(boolean Gender) {
         this.Gender = Gender;
+    }
+
+    public String getPassword() {
+        return Password;
+    }
+
+    public void setPassword(String Password) {
+        this.Password = Password;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+
+    public boolean isLocked() {
+        return locked;
+    }
+
+    public void setLocked(boolean locked) {
+        this.locked = locked;
     }
 
 }
