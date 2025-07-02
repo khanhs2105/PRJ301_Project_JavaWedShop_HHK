@@ -9,9 +9,9 @@ package Models;
 public class User {
 private int Id;
 private String Name;
+private String Password;
 private int Age;
 private boolean Gender;
-private String Password;
 private String role;
 private boolean locked;
 
