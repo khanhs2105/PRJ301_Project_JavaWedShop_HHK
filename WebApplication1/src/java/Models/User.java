@@ -18,12 +18,17 @@ private boolean locked;
     public User() {
     }
 
-    public User(int Id, String Name, int Age, boolean Gender) {
+    public User(int Id, String Name, String Password, int Age, boolean Gender, String role, boolean locked) {
         this.Id = Id;
         this.Name = Name;
+        this.Password = Password;
         this.Age = Age;
         this.Gender = Gender;
+        this.role = role;
+        this.locked = locked;
     }
+
+    
 
     public int getId() {
         return Id;
