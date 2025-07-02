@@ -32,4 +32,5 @@ public class DAO {
             return alo.getName();
         }
         private int ngusidan = 100;
+        private String PASSSWORD;
 }
