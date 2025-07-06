@@ -12,13 +12,13 @@ private String Name;
 private String Password;
 private int Age;
 private boolean Gender;
-private String role;
+private int role;
 private boolean locked;
 
     public User() {
     }
 
-    public User(int Id, String Name, String Password, int Age, boolean Gender, String role, boolean locked) {
+    public User(int Id, String Name, String Password, int Age, boolean Gender, int role, boolean locked) {
         this.Id = Id;
         this.Name = Name;
         this.Password = Password;
@@ -70,11 +70,11 @@ private boolean locked;
         this.Password = Password;
     }
 
-    public String getRole() {
+    public int getRole() {
         return role;
     }
 
-    public void setRole(String role) {
+    public void setRole(int role) {
         this.role = role;
     }
 
