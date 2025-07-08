@@ -41,7 +41,7 @@ public class Login extends HttpServlet {
               response.sendRedirect(request.getContextPath() + "/Views/Admin/dashboard.jsp");
 
             } else {
-                response.sendRedirect("user/home.jsp");
+                response.sendRedirect("Views/Users/Home.jsp");
             }
         }
       
