@@ -37,8 +37,7 @@ public class Login extends HttpServlet {
         }else{
               HttpSession session = request.getSession();
             session.setAttribute("user", us);
-            if (us.getRole() == 1) {
-              response.sendRedirect(request.getContextPath() + "/Views/Admin/dashboard.jsp");
+            if (us.getRole() == 1) { response.sendRedirect(request.getContextPath() + "/Views/Admin/dashboard.jsp");
 
             } else {
                 response.sendRedirect("Views/Users/Home.jsp");
